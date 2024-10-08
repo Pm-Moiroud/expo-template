@@ -1,17 +1,18 @@
 {
   "extends": "expo/tsconfig.base",
+  "type": ["react-native"],
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "~app/*": ["./src/app/*"],
+      "~assets/*": ["./src/assets/*"],
+      "~components/*": ["./src/components/*"],
+      "~config/*": ["./src/config/*"],
+      "~features/*": ["./src/features/*"],
+      "~hooks/*": ["./src/hooks/*"],
+      "~providers/*": ["./src/providers/*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts", "metro.config.js", "jest.config.js"],
+  "exclude": ["node_modules", "babel.config.js"]
 }

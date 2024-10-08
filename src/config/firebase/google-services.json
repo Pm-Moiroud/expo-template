@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182538184028",
+    "project_id": "intrasafe-bed19",
+    "storage_bucket": "intrasafe-bed19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182538184028:android:9a073612174f8df9e8cd99",
+        "android_client_info": {
+          "package_name": "com.intrasafe.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWY_SWX4ZTtaVCQWgAqIOAU-s7BKwsMVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
